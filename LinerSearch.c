@@ -1,6 +1,7 @@
 #include<stdio.h>
 #define N 8
- 
+
+// 線形探索
 int LinerSearch(int x[],int n,int y)
 {
         int i=0;
@@ -10,7 +11,8 @@ int LinerSearch(int x[],int n,int y)
         }
         return -1;
 }
- 
+
+// 番兵法
 int SentinelSearch(int x[],int n,int y)
 {
         int i=0;
