@@ -1,9 +1,9 @@
 @echo off
-::chcp 65001 > nul
-chcp 65001
+chcp 65001 > nul
+
 :: コマンドプロンプトをUTF-8モードで開く
-:: cmd.exe /u /k
-cmd
+cmd.exe /u /k
+
 :: .exeファイルの一覧を取得
 setlocal enabledelayedexpansion
 set "count=0"
